@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="579af340-8973-4a0b-9c5e-3239eb0ec4ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-8-Streams.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterDemo4.java" afterDir="false" />
+    <list default="true" id="579af340-8973-4a0b-9c5e-3239eb0ec4ff" name="Changes" comment="2. Filter method">
+      <change afterPath="$PROJECT_DIR$/src/mapdemos/Mapdemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mapdemos/Mapdemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mapdemos/Mapdemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mapdemos/Mapdemo4Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FilterDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filterdemos/FilterDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FilterDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filterdemos/FilterDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FilterDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filterdemos/FilterDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FilterDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filterdemos/FilterDemo4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,46 +45,82 @@
     "Application.FilterDemo3.executor": "Run",
     "Application.FilterDemo4.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Mapdemo1.executor": "Run",
+    "Application.Mapdemo2.executor": "Run",
+    "Application.Mapdemo3.executor": "Run",
+    "Application.Mapdemo4Filter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FilterDemo4">
-    <configuration name="FilterDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FilterDemo1" />
-      <module name="Java-8-Streams" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilterDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FilterDemo2" />
-      <module name="Java-8-Streams" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilterDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FilterDemo3" />
-      <module name="Java-8-Streams" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Mapdemo4Filter">
     <configuration name="FilterDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FilterDemo4" />
+      <option name="MAIN_CLASS_NAME" value="filterdemos.FilterDemo4" />
       <module name="Java-8-Streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mapdemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mapdemos.Mapdemo1" />
+      <module name="Java-8-Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mapdemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mapdemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mapdemos.Mapdemo2" />
+      <module name="Java-8-Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mapdemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mapdemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mapdemos.Mapdemo3" />
+      <module name="Java-8-Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mapdemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mapdemo4Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mapdemos.Mapdemo4Filter" />
+      <module name="Java-8-Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mapdemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mapdemo4Filter" />
+        <item itemvalue="Application.Mapdemo3" />
+        <item itemvalue="Application.Mapdemo2" />
+        <item itemvalue="Application.Mapdemo1" />
         <item itemvalue="Application.FilterDemo4" />
-        <item itemvalue="Application.FilterDemo3" />
-        <item itemvalue="Application.FilterDemo2" />
-        <item itemvalue="Application.FilterDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -98,6 +133,19 @@
       <option name="presentableId" value="Default" />
       <updated>1738550049396</updated>
     </task>
+    <task id="LOCAL-00001" summary="2. Filter method">
+      <option name="closed" value="true" />
+      <created>1738569827826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738569827826</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2. Filter method" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. Filter method" />
   </component>
 </project>
