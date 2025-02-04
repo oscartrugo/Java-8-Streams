@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="579af340-8973-4a0b-9c5e-3239eb0ec4ff" name="Changes" comment="2. Filter method">
-      <change afterPath="$PROJECT_DIR$/src/flatmapdemos/FlatmapDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flatmapdemos/FlatmapDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flatmapdemos/FlatmapDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/distincCountLimitReduce/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/distincCountLimitReduce/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/distincCountLimitReduce/Demo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/distincCountLimitReduce/Demo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +37,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Demo1.executor": "Run",
+    "Application.Demo2.executor": "Run",
+    "Application.Demo3.executor": "Run",
+    "Application.Demo4.executor": "Run",
     "Application.FilterDemo2.executor": "Run",
     "Application.FilterDemo3.executor": "Run",
     "Application.FilterDemo4.executor": "Run",
@@ -48,17 +53,19 @@
     "Application.Mapdemo3.executor": "Run",
     "Application.Mapdemo4Filter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/oscartrujillo/Documents/GitHub/Java-8-Streams"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FlatmapDemo3">
-    <configuration name="FlatmapDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flatmapdemos.FlatmapDemo1" />
+  <component name="RunManager" selected="Application.Demo4">
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="distincCountLimitReduce.Demo1" />
       <module name="Java-8-Streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="flatmapdemos.*" />
+          <option name="PATTERN" value="distincCountLimitReduce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +73,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlatmapDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flatmapdemos.FlatmapDemo2" />
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="distincCountLimitReduce.Demo2" />
       <module name="Java-8-Streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="flatmapdemos.*" />
+          <option name="PATTERN" value="distincCountLimitReduce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="distincCountLimitReduce.Demo3" />
+      <module name="Java-8-Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="distincCountLimitReduce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="distincCountLimitReduce.Demo4" />
+      <module name="Java-8-Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="distincCountLimitReduce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,41 +125,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mapdemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mapdemos.Mapdemo3" />
-      <module name="Java-8-Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mapdemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mapdemo4Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mapdemos.Mapdemo4Filter" />
-      <module name="Java-8-Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mapdemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo4" />
+        <item itemvalue="Application.Demo3" />
+        <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.FlatmapDemo3" />
-        <item itemvalue="Application.FlatmapDemo2" />
-        <item itemvalue="Application.FlatmapDemo1" />
-        <item itemvalue="Application.Mapdemo4Filter" />
-        <item itemvalue="Application.Mapdemo3" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -136,6 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738550049396</updated>
+      <workItem from="1738679704041" duration="4697000" />
     </task>
     <task id="LOCAL-00001" summary="2. Filter method">
       <option name="closed" value="true" />
